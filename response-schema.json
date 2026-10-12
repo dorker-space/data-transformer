@@ -1,0 +1,60 @@
+
+{
+  "internal_analysis_cot": {
+    "step_0_normalization": "String detailing extracted entities and language mapping",
+    "step_1_constraints": "String detailing hard gate verification",
+    "step_2_alignment": "String detailing hard skill matrix mapping",
+    "step_3_scoring_math": {
+      "initial_technical_score": 1.0,
+      "technical_deductions_applied": ["String description of each penalty applied with value"],
+      "initial_strategic_score": 1.0,
+      "strategic_deductions_applied": ["String description of each value penalty with value"],
+      "calculated_technical_capability_score": 0.00,
+      "calculated_strategic_value_score": 0.00
+    }
+  },
+  "metadata": {
+    "extracted_company": "String (Normalized English Name)",
+    "extracted_title": "String (Normalized English Title)",
+    "extracted_location_status": "String (Remote / Hybrid / On-site)"
+  },
+  "internal_scoring_breakdown": {
+    "initial_score": 1.0,
+    "phase_1_fatal_violations": ["String array of triggered red flags, empty if none"],
+    "phase_2_experience_deductions": ["String array of experience gaps and deductions taken with values"],
+    "phase_3_technical_deductions": ["String array of tech/library gaps and deductions taken with values"],
+    "phase_3_waiver_applied": false
+  },
+  "is_match": false,
+  "technical_capability_score": 0.00,
+  "strategic_value_score": 0.00,
+  "application_status": "SUITABLE / STRECH / RUNWAY / REJECTED",
+  "strategic_reason": "String (One concise sentence explaining why it matches or fails based on constraints)",
+  "analytics": {
+    "pros": [
+      "String (Explicit architectural/project alignment with your profile)"
+    ],
+    "cons": [
+      "String (Precise technical gaps, scoring deductions, or academic-only foundations)"
+    ],
+    "warnings": [
+      "String (Hidden technical debt, cultural/management red flags, or operational risks discovered)"
+    ]
+  },
+  "cv_modification_points": [
+    "String (Actionable CV adjustment 1 specifying project priority and metrics)",
+    "String (Actionable CV adjustment 2)",
+    "String (Actionable CV adjustment 3)"
+  ],
+  "tailored_cover_letter": "String (Flawless English, dry, noun-heavy, verbatim deep-dive excerpted text matching the target stack without boilerplate fluff)",
+  "application_form_answers" : [
+    {
+      "question" : "Full question text from <job_payload>",
+      "answer" : "Your generated answer"
+    },
+    {
+      "question" : "Full question text from <job_payload>",
+      "answer" : "Your generated answer"
+    }
+  ]
+}
